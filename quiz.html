@@ -30,6 +30,10 @@
       $(".wrong-msg").slideDown();
       $(".correct-msg").hide();
     })
+    $(".btn").on("click", function(){
+      $(".btn").removeClass("active");
+      $(this).addClass("active");
+    })
 
   </script>
 </body>
